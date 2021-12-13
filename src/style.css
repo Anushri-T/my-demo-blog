@@ -89,8 +89,8 @@ footer {
 
 hr {
   background: var(--color-accent);
-  height: 1px;
-  border: 0;
+  height: 1.5px;
+  border: 0.5;
 }
 
 /* Heading */
@@ -105,7 +105,7 @@ h6 {
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
-  letter-spacing: -0.025em;
+  letter-spacing: -0.030em;
 }
 
 h2,
@@ -161,7 +161,7 @@ h6 > a {
 
 p {
   line-height: var(--lineHeight-relaxed);
-  --baseline-multiplier: 0.179;
+  --baseline-multiplier: 0.189;
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
@@ -217,7 +217,7 @@ blockquote > ol {
 }
 
 table {
-  width: 100%;
+  width: 110%;
   margin-bottom: var(--spacing-8);
   border-collapse: collapse;
   border-spacing: 0.25rem;
@@ -283,7 +283,7 @@ a:focus {
   font-weight: var(--fontWeight-bold);
   font-family: var(--font-heading);
   text-decoration: none;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-3);
 }
 
 .bio {
